@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glassmorphic Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-…" crossorigin="anonymous" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-…" crossorigin="anonymous" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.css">
+
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+    
+    <script src="js/dataTables.js"></script>
 
 </head>
+
 <body>
     <div class="glass-container">
         <header class="glassmorphic-header">
@@ -22,7 +32,6 @@
                 </ul>
             </nav>
         </header>
-
         <section class="main-content">
             <h2>Welcome to Our Website</h2>
             <p>This is a simple glassmorphic website template.</p>
@@ -32,7 +41,8 @@
         <div class="search-container">
             <input type="text" id="searchInput" class="glass-input" placeholder="Search...">
         </div>
-        <table id="dataTable" class="glass-table">
+        
+        <table class="example">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -54,6 +64,7 @@
                 <!-- Add more rows as needed -->
             </tbody>
         </table>
+
         <div id="paginationContainer" class="pagination-container"></div>
 
         <h1>Glassmorphic Buttons</h1>
@@ -63,7 +74,7 @@
             <button class="glass-button"><i class="fas fa-search"></i> Search</button>
             <button class="glass-button glass-button-secondary"><i class="fas fa-plus"></i> Add</button>
         </center>
-        
+
         <h1>Glassmorphic Form</h1>
         <form class="glass-form">
             <div class="form-group">
@@ -83,20 +94,24 @@
 
         <h1>Glassmorphic Image</h1>
         <div class="image-container">
-            <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg" alt="Example Image" class="glass-image">
+            <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg"
+                alt="Example Image" class="glass-image">
         </div>
 
         <h1>Glassmorphic Carousel</h1>
         <div id="carouselExampleControls" class="carousel slide glass-carousel" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg" class="d-block w-100" alt="Image 1">
+                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg"
+                        class="d-block w-100" alt="Image 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg" class="d-block w-100" alt="Image 2">
+                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg"
+                        class="d-block w-100" alt="Image 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg" class="d-block w-100" alt="Image 3">
+                    <img src="https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg"
+                        class="d-block w-100" alt="Image 3">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -119,4 +134,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
