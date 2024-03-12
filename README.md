@@ -1,3 +1,3 @@
 # Glassmorphic-template
 
-KEVIN 
+KEVIN VLADIMER MORI GLASSMORPHIC TEMPLATE
