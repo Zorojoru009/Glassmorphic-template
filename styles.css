@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-3840x2160-1432.jpg") no-repeat center center fixed; /* Replace 'background.jpg' with your background image */
+    background-size: cover;
+}
+
+.glass-container {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value to control the transparency */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 80px auto;
+    max-width: 1200px;
+    backdrop-filter: blur(10px); /* Apply blur effect to create glassmorphism */
+}
+
+.glassmorphic-header {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.macbook-title {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.macbook-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.macbook-nav ul li {
+    margin-right: 20px;
+}
+
+.macbook-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.macbook-nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s;
+}
+
+.macbook-nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value to control the transparency */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 600px) {
+    .glass-container {
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 95%;
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.glass-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.glass-table th,
+.glass-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.glass-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.glass-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.glass-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.glass-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.glass-button-secondary {
+    background-color: rgba(0, 123, 255, 0.2); /* Change color as needed */
+}
+
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.search-container {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.glass-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.glass-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.glass-input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.glass-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.image-container {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.glass-image {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.glass-image:hover {
+    transform: scale(1.05);
+}
+
+.glass-carousel {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+    border-radius: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(1); /* Invert control icons for better visibility */
+}
